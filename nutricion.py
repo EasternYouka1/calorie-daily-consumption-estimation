@@ -24,5 +24,5 @@ modelo.fit(X_train, y_train, epochs=350
 
 
 new_user_data = np.array([[30, 100, 1]])  
-predicted_calories = model.predict(new_user_data)
+predicted_calories = modelo.predict(new_user_data)
 print(f"Calorías diarias recomendadas: {predicted_calories[0][0]} kcal")
